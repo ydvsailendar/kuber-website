@@ -1,7 +1,7 @@
 <title>Kuber Saving & Credit Co-operative</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mukta:wght@400;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;500;600;700&family=Mukta:wght@400;600;700;800&family=Inter:wght@400;500;600;700&display=swap">
 
 <style>
 /* Layout: sticky nav → hero → about → products → remittance → gallery → staff → testimonials → locations → footer */
@@ -19,8 +19,8 @@
   --text-muted: #7a9a86;
   --border: #cce4d6;
   --shadow: 0 2px 14px rgba(26,122,62,0.10);
-  --font-h: 'Poppins', sans-serif;
-  --font-b: 'Mukta', 'Poppins', sans-serif;
+  --font-h: 'Inter', 'Poppins', sans-serif;
+  --font-b: 'Noto Sans Devanagari', 'Mukta', 'Inter', sans-serif;
   color-scheme: light;
 }
 @media (prefers-color-scheme: dark) {
@@ -107,9 +107,14 @@ body::before { content: ''; position: fixed; inset: 0 0 auto; height: env(safe-a
 .reg-tag { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 6px 12px; font-family: var(--font-h); font-size: 12px; color: var(--text-muted); }
 .feats { display: flex; flex-direction: column; gap: 18px; }
 .feat { display: flex; gap: 14px; align-items: flex-start; }
+
+.feat-ico svg, .feat-ico svg * { stroke: var(--green); }
+.feat-ico svg { width: 22px; height: 22px; stroke-width: 1.8; }
+.pcard-icon svg, .pcard-icon svg * { stroke: var(--green); }
+.pcard-icon svg { width: 32px; height: 32px; stroke-width: 1.6; }
 .feat-ico { width: 44px; height: 44px; background: var(--surface); border: 1px solid var(--border); border-radius: 10px; display: flex; align-items: center; justify-content: center; font-size: 20px; flex-shrink: 0; }
-.feat-body h4 { font-size: 15px; margin-bottom: 2px; }
-.feat-body p { font-size: 13px; color: var(--text-sec); margin: 0; }
+.feat-body h4 { font-size: 16px; margin-bottom: 2px; }
+.feat-body p { font-size: 14px; color: var(--text-sec); margin: 0; }
 @media (max-width: 700px) { .about-grid { grid-template-columns: 1fr; gap: 32px; } }
 
 /* PRODUCTS */
@@ -118,7 +123,7 @@ body::before { content: ''; position: fixed; inset: 0 0 auto; height: env(safe-a
 .pcard.star { border-color: var(--green); border-width: 2px; }
 .pcard.star::before { content: 'Most Popular'; position: absolute; top: 18px; right: -22px; background: var(--red); color: #fff; font-family: var(--font-h); font-size: 9px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; padding: 4px 36px; transform: rotate(45deg); }
 .pcard-icon { font-size: 30px; margin-bottom: 14px; }
-.pcard-title-en { font-size: 17px; margin-bottom: 2px; }
+.pcard-title-en { font-size: 18px; margin-bottom: 2px; }
 .pcard-title-np { font-size: 15px; font-weight: 600; color: var(--text-sec); margin-bottom: 14px; }
 .pcard-rate { font-family: var(--font-h); font-size: 40px; font-weight: 700; color: var(--green); line-height: 1; }
 .pcard-rate-meta { font-family: var(--font-h); font-size: 11px; color: var(--text-muted); margin: 4px 0 16px; }
@@ -280,12 +285,12 @@ footer { background: var(--green-dark); color: rgba(255,255,255,0.75); padding-b
       </div>
       <div class="hero-pills">
         <span class="pill">📍 Sarawal-6, Bhujahawa</span>
-        <span class="pill">📞 078-651127</span>
+        <span class="pill">📞 +9779857048988</span>
         <span class="pill">🏦 3 Service Centres</span>
       </div>
     </div>
     <div class="hero-rate" aria-label="Featured interest rate">
-      <div class="rate-num">12.5<sup>%</sup></div>
+      <div class="rate-num">5<sup>%</sup></div>
       <div class="rate-label">Annual Interest Rate</div>
       <div class="rate-sub">सरल आवधिक बचत खाता<br>Min. Balance: Rs. 50,000<br>Term: 1 Year</div>
     </div>
@@ -301,7 +306,7 @@ footer { background: var(--green-dark); color: rgba(255,255,255,0.75); padding-b
         <h2 class="sec-title">A Community-First Co-operative</h2>
         <div class="divider"></div>
         <p>Shree Kuber Saving &amp; Credit Co-operative Ltd. was founded in 2071 BS to bring reliable and transparent financial services to the communities of Nawalparasi. Operating under Nepal's Co-operative Act and affiliated with NEFSCUN, we are fully owned and governed by our members.</p>
-        <p>From our head office in Bhujahawa to service centres in Bairawa and Kuriya, we serve hundreds of families with savings accounts, loan facilities, and remittance services.</p>
+        <p>From our head office in Bhujahawa to service centres in Bairahawa and Kudiya, we serve hundreds of families with savings accounts, loan facilities, and remittance services.</p>
         <div class="reg-row">
           <span class="reg-tag">दर्ता नं. ५६०/०७१/७२</span>
           <span class="reg-tag">PAN: 602563232</span>
@@ -309,11 +314,11 @@ footer { background: var(--green-dark); color: rgba(255,255,255,0.75); padding-b
         </div>
       </div>
       <div class="feats">
-        <div class="feat"><div class="feat-ico">🏦</div><div class="feat-body"><h4>Member-Owned</h4><p>Profits stay within the community — run by members, for members</p></div></div>
-        <div class="feat"><div class="feat-ico">💰</div><div class="feat-body"><h4>High-Yield Savings</h4><p>Up to 12.5% p.a. with daily interest calculation and quarterly payout</p></div></div>
-        <div class="feat"><div class="feat-ico">🔒</div><div class="feat-body"><h4>Safe &amp; Regulated</h4><p>NEFSCUN-affiliated, governed under Nepal Co-operative Act 2074</p></div></div>
-        <div class="feat"><div class="feat-ico">📡</div><div class="feat-body"><h4>Digital Payments</h4><p>IME, Himal Remit, City Express, eSewa, Khalti and more</p></div></div>
-        <div class="feat"><div class="feat-ico">📍</div><div class="feat-body"><h4>Local Presence</h4><p>3 offices across Nawalparasi — Bhujahawa, Bairawa, Kuriya</p></div></div>
+        <div class="feat"><div class="feat-ico"><i data-lucide="users-round"></i></div><div class="feat-body"><h4>Member-Owned</h4><p>Profits stay within the community — run by members, for members</p></div></div>
+        <div class="feat"><div class="feat-ico"><i data-lucide="trending-up"></i></div><div class="feat-body"><h4>High-Yield Savings</h4><p>Up to 5% p.a. with daily interest calculation and quarterly payout</p></div></div>
+        <div class="feat"><div class="feat-ico"><i data-lucide="shield-check"></i></div><div class="feat-body"><h4>Safe &amp; Regulated</h4><p>NEFSCUN-affiliated, governed under Nepal Co-operative Act 2074</p></div></div>
+        <div class="feat"><div class="feat-ico"><i data-lucide="smartphone"></i></div><div class="feat-body"><h4>Digital Payments</h4><p>IME, Himal Remit, City Express, eSewa, Khalti and more</p></div></div>
+        <div class="feat"><div class="feat-ico"><i data-lucide="map-pin"></i></div><div class="feat-body"><h4>Local Presence</h4><p>3 offices across Nawalparasi — Bhujahawa, Bairahawa, Kudiya</p></div></div>
       </div>
     </div>
   </div>
@@ -327,10 +332,10 @@ footer { background: var(--green-dark); color: rgba(255,255,255,0.75); padding-b
     <div class="divider"></div>
     <div class="products-grid">
       <div class="pcard star">
-        <div class="pcard-icon">💎</div>
+        <div class="pcard-icon"><i data-lucide="wallet"></i></div>
         <h3 class="pcard-title-en">Saral Awdhik Bachat Khata</h3>
         <div class="pcard-title-np">सरल आवधिक बचत खाता</div>
-        <div class="pcard-rate">12.5<span style="font-size:20px">%</span></div>
+        <div class="pcard-rate">5<span style="font-size:20px">%</span></div>
         <div class="pcard-rate-meta">Per Annum · 1-Year Term</div>
         <ul class="plist">
           <li>Minimum balance Rs. 50,000</li>
@@ -341,7 +346,7 @@ footer { background: var(--green-dark); color: rgba(255,255,255,0.75); padding-b
         </ul>
       </div>
       <div class="pcard">
-        <div class="pcard-icon">🏠</div>
+        <div class="pcard-icon"><i data-lucide="home"></i></div>
         <h3 class="pcard-title-en">Regular Savings Account</h3>
         <div class="pcard-title-np">साधारण बचत खाता</div>
         <ul class="plist" style="margin-top:22px">
@@ -353,7 +358,7 @@ footer { background: var(--green-dark); color: rgba(255,255,255,0.75); padding-b
         </ul>
       </div>
       <div class="pcard">
-        <div class="pcard-icon">🤝</div>
+        <div class="pcard-icon"><i data-lucide="briefcase"></i></div>
         <h3 class="pcard-title-en">Loan Facilities</h3>
         <div class="pcard-title-np">ऋण सेवाहरू</div>
         <ul class="plist" style="margin-top:22px">
@@ -435,18 +440,18 @@ footer { background: var(--green-dark); color: rgba(255,255,255,0.75); padding-b
         <div class="ltype">Head Office</div>
         <h3 class="lname">Bhujahawa Branch</h3>
         <p class="laddr">Sarawal Gaunpalika-6, Bhujahawa<br>Nawalparasi (Bardaghat Susta West), Province 5, Nepal</p>
-        <div class="lphone">📞 078-651127</div>
+        <div class="lphone">📞 +9779857048988</div>
       </div>
       <div class="lcard">
         <div class="ltype">Service Centre</div>
         <h3 class="lname">पाल्ही सेवा केन्द्र</h3>
-        <p class="laddr">Palhi Service Centre<br>Palhinandan Gaunpalika-4, Bairawa<br>Nawalparasi, Province 5</p>
+        <p class="laddr">Palhi Service Centre<br>Palhinandan Gaunpalika-4, Bairahawa<br>Nawalparasi, Province 5</p>
         <div class="lphone">📞 Via Head Office</div>
       </div>
       <div class="lcard">
         <div class="ltype">Service Centre</div>
-        <h3 class="lname">सुरता सेवा केन्द्र</h3>
-        <p class="laddr">Surta Service Centre<br>Surta-2, Kuriya<br>Nawalparasi, Province 5</p>
+        <h3 class="lname">सुस्ता सेवा केन्द्र</h3>
+        <p class="laddr">Susta Service Centre<br>Susta-2, Kudiya<br>Nawalparasi, Province 5</p>
         <div class="lphone">📞 Via Head Office</div>
       </div>
     </div>
@@ -478,7 +483,7 @@ footer { background: var(--green-dark); color: rgba(255,255,255,0.75); padding-b
         <ul>
           <li>Sarawal-6, Bhujahawa</li>
           <li>Nawalparasi, Province 5</li>
-          <li style="margin-top:10px">📞 078-651127</li>
+          <li style="margin-top:10px">📞 +9779857048988</li>
           <li style="margin-top:4px">Est. 2071 BS</li>
         </ul>
       </div>
@@ -553,9 +558,9 @@ staff.forEach(s => {
 // ── TESTIMONIALS ──────────────────────────────────────────
 const testimonials = [
   { quote: "कुबेर सहकारीमा बचत राखेपछि मैले आफ्नो घर बनाउन सकें। यहाँको ब्याजदर धेरै राम्रो छ र कर्मचारीहरू पनि सहयोगी छन्।", name: "Kamala Devi Tharu", loc: "Sarawal-5, Nawalparasi", color: "#c62828", initials: "KD" },
-  { quote: "The 12.5% fixed deposit scheme changed everything for our family. The staff processed our account same day and the interest comes in every quarter. I recommend Kuber to all my neighbours.", name: "Rajendra Prasad Yadav", loc: "Bhujahawa, Nawalparasi", color: "#0f5229", initials: "RP" },
-  { quote: "मेरो छोरा कतारमा काम गर्छ। IME मार्फत पैसा पठाउँछ र कुबेरबाट झट्ट पाइन्छ। सेवा छिटो र भरोसायोग्य छ।", name: "Shanti Devi Mahato", loc: "Palhinandan-4, Bairawa", color: "#1565c0", initials: "SD" },
-  { quote: "व्यापार सुरु गर्न ऋण चाहिएको थियो। कुबेर सहकारीले सजिलो कागजातमा ऋण दियो। आज मेरो पसल राम्रोसँग चलिरहेको छ।", name: "Surendra Kumar Sah", loc: "Kuriya, Nawalparasi", color: "#b8860b", initials: "SK" },
+  { quote: "The 5% fixed deposit scheme changed everything for our family. The staff processed our account same day and the interest comes in every quarter. I recommend Kuber to all my neighbours.", name: "Rajendra Prasad Yadav", loc: "Bhujahawa, Nawalparasi", color: "#0f5229", initials: "RP" },
+  { quote: "मेरो छोरा कतारमा काम गर्छ। IME मार्फत पैसा पठाउँछ र कुबेरबाट झट्ट पाइन्छ। सेवा छिटो र भरोसायोग्य छ।", name: "Shanti Devi Mahato", loc: "Palhinandan-4, Bairahawa", color: "#1565c0", initials: "SD" },
+  { quote: "व्यापार सुरु गर्न ऋण चाहिएको थियो। कुबेर सहकारीले सजिलो कागजातमा ऋण दियो। आज मेरो पसल राम्रोसँग चलिरहेको छ।", name: "Surendra Kumar Sah", loc: "Kudiya, Nawalparasi", color: "#b8860b", initials: "SK" },
 ];
 const tGrid = document.getElementById('testiGrid');
 testimonials.forEach(t => {
@@ -580,3 +585,6 @@ document.querySelectorAll('a[href^="#"]').forEach(a => {
 
 })();
 </script>
+<script src="https://cdn.jsdelivr.net/npm/lucide@0.263.1/dist/umd/lucide.min.js"></script>
+<script>document.addEventListener("DOMContentLoaded",function(){lucide.createIcons();});</script>
+
