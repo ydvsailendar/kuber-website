@@ -1,0 +1,59 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@500;700&amp;display=swap');
+      text { font-family: 'Noto Sans Devanagari', 'Arial Unicode MS', sans-serif; }
+    </style>
+    <path id="kta" d="M 63,279 A 158,158 0 1,1 337,279"/>
+    <path id="kba" d="M 68,276 A 152,152 0 0,0 332,276"/>
+    <clipPath id="kpc"><rect x="130" y="216" width="140" height="115"/></clipPath>
+  </defs>
+
+  <circle cx="200" cy="200" r="197" fill="white"/>
+  <circle cx="200" cy="200" r="195" fill="none" stroke="#206428" stroke-width="3.5"/>
+  <circle cx="200" cy="200" r="188" fill="none" stroke="#206428" stroke-width="1"/>
+  <circle cx="200" cy="200" r="183" fill="none" stroke="#206428" stroke-width="9"/>
+  <circle cx="200" cy="200" r="174" fill="none" stroke="#206428" stroke-width="1.5"/>
+
+  <text paint-order="stroke fill" stroke="white" stroke-width="2.5" stroke-linejoin="round"
+        font-size="16" font-weight="700" fill="#206428" letter-spacing="0.5">
+    <textPath href="#kta" startOffset="50%" text-anchor="middle">कुबेर बचत तथा ऋण सहकारी संस्था</textPath>
+  </text>
+  <text paint-order="stroke fill" stroke="white" stroke-width="2.5" stroke-linejoin="round"
+        font-size="12" font-weight="600" fill="#206428">
+    <textPath href="#kba" startOffset="50%" text-anchor="middle">सरावल-६, भुजहवा, नवलपरासी  •  स्था. २०११</textPath>
+  </text>
+
+  <text x="70"  y="203" font-size="20" fill="#c01818" text-anchor="middle" dominant-baseline="middle">★</text>
+  <text x="330" y="203" font-size="20" fill="#c01818" text-anchor="middle" dominant-baseline="middle">★</text>
+
+  <ellipse cx="200" cy="317" rx="54" ry="8.5" fill="#8c2010"/>
+  <ellipse cx="200" cy="265" rx="62" ry="58" fill="#c84020" clip-path="url(#kpc)"/>
+  <path d="M 139,250 C 136,230 148,214 162,218 C 150,222 142,237 142,256 Z" fill="#8c2010" opacity="0.3"/>
+  <path d="M 183,216 L 185,197 L 215,197 L 217,216 Z" fill="#a83018"/>
+  <path d="M 170,190 L 173,183 L 227,183 L 230,190 Z" fill="#a03018"/>
+  <ellipse cx="200" cy="183" rx="30" ry="7" fill="#8c2010"/>
+
+  <g fill="white" transform="translate(200,255)">
+    <rect x="-3"  y="-3"  width="6"  height="6"/>
+    <rect x="-3"  y="-15" width="6"  height="12"/>
+    <rect x="3"   y="-15" width="9"  height="5"/>
+    <rect x="3"   y="-3"  width="12" height="6"/>
+    <rect x="9"   y="3"   width="5"  height="9"/>
+    <rect x="-3"  y="3"   width="6"  height="12"/>
+    <rect x="-12" y="9"   width="9"  height="5"/>
+    <rect x="-15" y="-3"  width="12" height="6"/>
+    <rect x="-15" y="-12" width="5"  height="9"/>
+  </g>
+
+  <g>
+    <g transform="rotate(-42 200 181)"><path d="M 197,181 C 185,160 181,128 188,101 C 191,89 209,89 212,101 C 219,128 215,160 203,181 Z" fill="#1a6020"/></g>
+    <g transform="rotate(-21 200 181)"><path d="M 197,181 C 185,160 181,128 188,101 C 191,89 209,89 212,101 C 219,128 215,160 203,181 Z" fill="#218828"/></g>
+    <path d="M 197,181 C 185,160 181,128 188,101 C 191,89 209,89 212,101 C 219,128 215,160 203,181 Z" fill="#218828"/>
+    <g transform="rotate(21 200 181)"><path d="M 197,181 C 185,160 181,128 188,101 C 191,89 209,89 212,101 C 219,128 215,160 203,181 Z" fill="#218828"/></g>
+    <g transform="rotate(42 200 181)"><path d="M 197,181 C 185,160 181,128 188,101 C 191,89 209,89 212,101 C 219,128 215,160 203,181 Z" fill="#1a6020"/></g>
+  </g>
+
+  <path d="M 200,101 C 194,90 188,78 190,70 C 192,63 196,67 200,68 C 204,67 208,63 210,70 C 212,78 206,90 200,101 Z" fill="#d47020"/>
+  <path d="M 200,101 C 198,92 195,83 196,74 C 197,69 199,67 200,67 C 201,67 203,69 204,74 C 205,83 202,92 200,101 Z" fill="#f0c418"/>
+</svg>
